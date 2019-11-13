@@ -1,36 +1,56 @@
-body
+body {
   font-size: 14px;
 }
-
+/* Added bracket */
 nav {
-  background color: yellow;
+  background-color: yellow;
+  * Added dash between background and color */
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
+/* Added bracket */
+nav {
+  background-color: pink;
+}
+/* Changed background color to pink */
 
 section {
   margin: 0 auto;
   width: 60%;
 }
+/* Added bracket */
 
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
+  /* Added colon */
   font-size: 2em;
-}
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
 }
 
 h3 {
   font-size: 1.3em;
 }
+  /* Moved up in order to define before .example */
+
+.example, h3 {
+  padding-top: 30px;
+  text-align: center;
+  /* Added semi-colon */
+}
+.example, h3 {
+  background-color: purple;
+}
+/* I've made the background color purple */
 
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
+  /* Added colon */
   width: 100%;
+}
+.element {
+  background-color: blue;
+}
+/* Changed background color to blue */
